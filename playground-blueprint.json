@@ -1,0 +1,16 @@
+{
+	"landingPage": "/wp-admin/plugins.php",
+	"login": true,
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME",
+				"ref": "main",
+				"refType": "refname",
+				"path": "/"
+			}
+		}
+	]
+}
